@@ -90,3 +90,87 @@ HLT
 
 NUM: .data 1 0
 ```
+
+#STA
+```bash
+INP
+STA NUM
+OUT
+HLT
+
+NUM: .data 1 0
+```
+#LDA
+```bash
+INP
+STA NUM
+LDA NUM
+OUT
+HLT
+
+NUM: .data 1 0
+```
+#BUN
+```bash
+INP
+BUN K
+INP
+K: OUT
+HLT
+```
+#cla
+```bash
+CLA
+HLT
+```
+#CMA
+```bash
+CMA
+HLT
+```
+#CME
+```bash
+CME
+HLT
+```
+#INC
+```bash
+INP
+INC
+OUT
+HLT
+```
+#SNA
+```bash
+INP
+SNA
+OUT
+HLT
+```
+#SPA
+```bash
+INP
+SPA
+OUT
+HLT
+```
+#SZE
+```bash
+SZE
+OUT
+HLT
+```
+#CIR
+```bash
+INP
+CIR
+OUT
+HLT
+```
+#CIL
+```bash
+INP
+CIL
+OUT
+HLT
+```
