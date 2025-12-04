@@ -90,6 +90,18 @@ HLT
 
 NUM: .data 1 0
 ```
+#Code for:- Multiply
+
+```bash
+START: INP
+STA NUM
+INP
+MULTIPLY NUM
+OUT
+HLT
+
+NUM: .data 1 0
+```
 
 #STA
 ```bash
